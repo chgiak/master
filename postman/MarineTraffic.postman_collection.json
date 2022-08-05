@@ -1,0 +1,508 @@
+{
+	"info": {
+		"_postman_id": "178710bc-3e9f-41f8-b8ed-520d710d95f2",
+		"name": "MarineTraffic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5574812"
+	},
+	"item": [
+		{
+			"name": "Vessels",
+			"item": [
+				{
+					"name": "Vessels",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/v1/vessels?",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"v1",
+								"vessels"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Vessels",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"filters\":{\"mmsi\":[247039300, 311040700], \"points\":[{\"lon\":14.36933, \"lat\":40.82278},{\"lon\":18.87793, \"lat\":42.75178}], \"time\":{\"ts_since\":1372683960, \"ts_to\":1372700340}}, \"ContentType\":\"text/csv\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/v1/vessels?",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"v1",
+										"vessels"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		}
+	]
+}
