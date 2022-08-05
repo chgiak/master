@@ -86,4 +86,4 @@ The ip address, the Uri and the input of the incoming requests are been logged (
 {"filters":{"mmsi":[247039300], "points":[{"lon":14.36933, "lat":42.75178},{"lon":18.87793, "lat":40.82278}], "time":{"ts_since":1372683960, "ts_to":1372700340}}, "ContentType":"application/json"} - no results / points are not shaping a quadrilateral 
 
 
-The above tests have been inclided on a Postman collecion on the <root folder>/postman of the project alongside with the endpoint of the API.
+The above tests have been included on a Postman collection on the <root folder>/postman of the project alongside with the endpoint of the API.
